@@ -1,41 +1,33 @@
-# Website
+<p align="center">
+  <img src="../docs/static/img/logo.png" alt="Logo Sol e Lua" width="50%">
+</p>
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+# Recreação
 
-## Installation
+Esse documento/site tem como propósito esclarecer algumas coisas sobre a parte da recreação, que faz total diferença nos eventos.
 
-```bash
-yarn
-```
+Foi feito também para quem quiser ver alguma informação de forma rápida. Pois você pode salvar esse site e ter o acesso rápido
 
-## Local Development
+Sabemos que o animador que comanda o evento, porém se o animador fizer tudo sozinho fica ruim, por isso temos os recreadores, para dar uma facilitada e deixar o evento fluido.
+ 
+Sem o recreador, o animador consegue sim fazer um evento e até fazer um bom evento, mas será muito mais difícil, por isso estamos ali para ajudar eles e auxiliar eles, e quem sabe no futuro não serão vocês como animadores sendo auxiliados por outros recreadores.
 
-```bash
-yarn start
-```
+---
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Sumário
 
-## Build
+Vou dividir em Pré-evento, Evento, Pós-evento e Músicas. 
 
-```bash
-yarn build
-```
+- [Pré-Evento](docs/pre.md)
+- [Evento](docs/meio.md)
+- [Pós-Evento](docs/pos.md)
+- [Playlist](docs/play.md)
+- [Caixa de som](docs/caixa/x.md) 
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+---
 
-## Deployment
+## Autor 
 
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+| <a href="https://github.com/Tutzs"><img src="https://avatars.githubusercontent.com/u/110691207?s=400&u=0f285ace4b3188bb274e2531ead3691d7161656a&v=4" width="150"></a>  |
+| :----------:                                                                                                                                                           | 
+| [Arthur Sousa](https://github.com/Tutzs)                                                                                                                               |

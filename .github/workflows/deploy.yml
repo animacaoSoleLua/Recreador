@@ -19,6 +19,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: 18
@@ -26,20 +27,22 @@ jobs:
           cache-dependency-path: '**/package-lock.json'
 
       - name: Install dependencies
-        run:  npm ci
+        run: npm ci
+
       - name: Build website
-        run:  npm run build
+        run: npm run build
+
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/build
+          path: docs/build  # essa pasta tem o site estático do Docusaurus
 
   deploy:
     name: Deploy to GitHub Pages
     needs: build
     permissions:
-      pages: write
-      id-token: write
+      pages: write      # necessário para publicar no Pages
+      id-token: write   # necessário para OIDC
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

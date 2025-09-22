@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Recreador',
-  tagline: 'Site p meus recreas',
-  favicon: 'img/SL.png',
+  title: 'Recreadores',
+  tagline: 'Como se tornar um bom recreador.',
+  favicon: 'img/logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -75,22 +75,12 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Início',
           },
         ],
       },
       footer: {
-        style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
           {
             title: 'Contato',
             items: [
@@ -104,7 +94,7 @@ const config = {
               },
              
             ],
-          },
+          },          
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Sol e Lua. Built with Docusaurus.`,
       },

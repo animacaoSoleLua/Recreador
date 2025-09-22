@@ -2,46 +2,28 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Recreação
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**Bem-vindo(a) ao Guia Essencial do Recreador Sol e Lua!**
 
-## Getting Started
+Este guia foi criado para ser o seu recurso rápido e completo sobre a arte da recreação em nossos eventos. Nosso objetivo é não só esclarecer os pontos cruciais que fazem a diferença em cada festa, mas também oferecer a você um acesso ágil a todas as informações – basta salvar e consultar quando precisar!
 
-Get started by **creating a new site**.
+Sabemos que o animador é a alma do evento, o maestro da diversão. Contudo, um grande espetáculo se torna ainda mais fluido e memorável com o apoio de uma equipe talentosa. É aqui que entra o papel fundamental do recreador: ser o braço direito, o suporte essencial que permite ao animador focar no comando da festa, garantindo que tudo corra sem interrupções e com a máxima energia.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Enquanto um animador experiente consegue, sim, conduzir um excelente evento sozinho, a presença de um recreador eleva a experiência a outro nível, tornando cada momento mais rico e gerenciável. Estamos aqui para somar, para auxiliar e para aprender juntos. Afinal, a jornada de hoje como recreador é o caminho para que, quem sabe, no futuro, você seja o animador, liderando a festa e inspirando novos talentos em nossa equipe!
 
-### What you'll need
+## Sumário
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Vou dividir em Pré-evento, Evento, Pós-evento, Playlists e Caixa de som. 
 
-## Generate a new site
+- [Pré-Evento](../docs/pre)
+- [Evento](../docs/meio)
+- [Pós-Evento](../docs/pos)
+- [Playlist](../docs/play)
+- [Caixa de som](../docs/caixaSom/x)
 
-Generate a new Docusaurus site using the **classic template**.
+## Autor
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+| <a href="https://github.com/Tutzs"><img src="https://avatars.githubusercontent.com/u/110691207?s=400&u=0f285ace4b3188bb274e2531ead3691d7161656a&v=4" width="150" /></a> |
+| :----------:            |   
+| [Arthur Sousa](https://github.com/Tutzs) |

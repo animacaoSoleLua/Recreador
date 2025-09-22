@@ -4,31 +4,30 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Preparação e Chegada',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      Este guia detalhado oferece todas as informações necessárias para você se preparar para o evento. 
+      Desde o horário de chegada ao escritório, a importância de verificar a agenda e a necessidade de auxiliar o animador.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Durante a Festa',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Site
+        Saiba como agir ao chegar no evento, desde se apresentar ao cliente até a montagem do equipamento. Aprenda sobre a interação com as crianças, o papel da música durante a pintura e balões e como ser um recreador animado e atencioso.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Pós-Evento',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      O trabalho não termina quando a festa acaba. Este tópico aborda o processo de retorno ao escritório, a importância do checklist, a organização dos materiais e o envio de fotos para o animador.
       </>
     ),
   },

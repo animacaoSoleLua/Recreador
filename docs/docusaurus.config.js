@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Meus recreas',
+  title: 'Recreador',
   tagline: 'Site p meus recreas',
   favicon: 'img/SL.png',
 
@@ -29,6 +29,8 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'animacaoSoleLua', // Usually your GitHub org/user name.
   projectName: 'Recreador', // Usually your repo name.
+  
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -65,7 +67,7 @@ const config = {
         title: 'Recreação',
         logo: {
           alt: 'Logo SL',
-          src: 'img/SL.png',
+          src: 'img/logo.png',
           href: '/',
         },
         items: [

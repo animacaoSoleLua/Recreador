@@ -32,6 +32,7 @@ const config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  deploymentBranch: 'gh-pages',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -60,13 +61,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-
       navbar: {
         title: 'Recreação',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Logo SL',
           src: 'img/SL.png',
+          href: '/',
         },
         items: [
           {
@@ -90,20 +90,17 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Contato',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'WhatsApp',
+                href: 'https://wa.me/61981836060',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/animacaosolelua/',
               },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
+             
             ],
           },
         ],

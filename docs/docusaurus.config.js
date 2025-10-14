@@ -1,3 +1,4 @@
+// ...existing code...
 // @ts-check
 // `@type` JSDoc annotations allow editor autocompletion and type checking
 // (when paired with `@ts-check`).
@@ -40,8 +41,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'pt-BR',
+    locales: ['pt-BR', 'en'],
   },
 
   presets: [
@@ -56,6 +57,16 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+      }),
+    ],
+  ],
+
+   themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      ({
+        hashed: true,
+        language: ['pt', 'en'], // busca em português e inglês
       }),
     ],
   ],
@@ -106,3 +117,4 @@ const config = {
 };
 
 export default config;
+// ...existing code...

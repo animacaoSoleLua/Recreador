@@ -40,9 +40,10 @@ const config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
+  
   i18n: {
-    defaultLocale: 'pt-BR',
-    locales: ['pt-BR', 'en'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -66,7 +67,7 @@ const config = {
       require.resolve('@easyops-cn/docusaurus-search-local'),
       ({
         hashed: true,
-        language: ['pt', 'en'], // busca em português e inglês
+        language: ['en'], // busca em português e inglês
       }),
     ],
   ],

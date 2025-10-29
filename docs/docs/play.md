@@ -16,7 +16,7 @@ Além destas, contamos com *playlists* auxiliares e mais específicas para difer
 
 - **Princesas**
 - **Heróis**
-- **Personagens no Geral**
+- **Personagens em Geral**
 - **Hinos de futebol**
 - **Carnaval**
 - **Instrumentais animadas**

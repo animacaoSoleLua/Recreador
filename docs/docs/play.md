@@ -16,6 +16,7 @@ Além destas, contamos com *playlists* auxiliares e mais específicas para difer
 
 - **Princesas**
 - **Heróis**
+- **Personagens no Geral**
 - **Hinos de futebol**
 - **Carnaval**
 - **Instrumentais animadas**
@@ -88,6 +89,20 @@ Sinta-se à vontade para criar suas próprias *playlists*.
   allowFullScreen
   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
   loading="lazy"
+/>
+
+### Personagens em Geral
+
+<iframe 
+data-testid="embed-iframe" 
+style={{ borderRadius: '12px' }} 
+src="https://open.spotify.com/embed/playlist/2XMkjenPWWcmSdeQp0LXNP?utm_source=generator&theme=0" 
+width="100%"
+height="352" 
+frameBorder="0" 
+allowfullscreen 
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+loading="lazy"
 />
 
 ---

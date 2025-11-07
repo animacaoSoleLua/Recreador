@@ -5,15 +5,15 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from "prism-react-renderer";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Recreadores',
-  tagline: 'Como se tornar um bom recreador.',
-  favicon: 'img/logo.png',
+  title: "Recreadores",
+  tagline: "Como se tornar um bom recreador.",
+  favicon: "img/logo.png",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -21,94 +21,113 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://animacaoSoleLua.github.io',
+  url: "https://animacaoSoleLua.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Recreador/',
+  baseUrl: "/Recreador/",
+
+  // Load Ionicons web components in the browser (CDN). We add the
+  // scripts here so they are included only on the client side.
+  scripts: [
+    { src: 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js', type: 'module' },
+    { src: 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js', nomodule: true },
+  ],
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'animacaoSoleLua', // Usually your GitHub org/user name.
-  projectName: 'Recreador', // Usually your repo name.
-  
+  organizationName: "animacaoSoleLua", // Usually your GitHub org/user name.
+  projectName: "Recreador", // Usually your repo name.
+
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  deploymentBranch: 'gh-pages',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn', // ou 'throw' / 'ignore'
+    },
+  },
+  deploymentBranch: "gh-pages",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
-  
+
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: "./sidebars.js",
         },
         blog: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       }),
     ],
   ],
 
-   themes: [
+  themes: [
     [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
-      ({
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
         hashed: true,
-        language: ['en'], // busca em português e inglês
-      }),
+        language: ["en"], // busca em português e inglês
+        searchBarShortcutKeymap: "ctrl+shift+f", // Use Ctrl+Shift+F
+      },
     ],
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+          // Permite que a sidebar seja recolhida/expandida pelo usuário
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       navbar: {
-        title: 'Recreação',
+        title: "Recreação",
         logo: {
-          alt: 'Logo SL',
-          src: 'img/logo.png',
-          href: '/',
+          alt: "Logo SL",
+          src: "img/logo.png",
+          href: "/",
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Início',
+            type: "docSidebar",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "Início",
           },
         ],
       },
       footer: {
         links: [
           {
-            title: 'Contato',
+            title: "Contato",
             items: [
               {
-                label: 'WhatsApp',
-                href: 'https://wa.me/61981836060',
+                label: "WhatsApp",
+                href: "https://wa.me/61981836060",
               },
               {
-                label: 'Instagram',
-                href: 'https://www.instagram.com/animacaosolelua/',
+                label: "Instagram",
+                href: "https://www.instagram.com/animacaosolelua/",
               },
-             
             ],
-          },          
+          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Sol e Lua. Built with Docusaurus.`,
+  // Use HTML for the icon; Ionicons web component will render in the browser
+  copyright: `Copyright © ${new Date().getFullYear()} Sol e Lua. Built with <ion-icon name="heart-outline"></ion-icon>`,
       },
       prism: {
         theme: prismThemes.github,
@@ -118,4 +137,3 @@ const config = {
 };
 
 export default config;
-// ...existing code...

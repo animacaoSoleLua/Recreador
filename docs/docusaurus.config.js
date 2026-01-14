@@ -53,8 +53,8 @@ const config = {
   // may want to replace "en" with "zh-Hans".
 
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "pt-BR",
+    locales: ["pt-BR"],
   },
 
   presets: [
@@ -78,7 +78,7 @@ const config = {
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         hashed: true,
-        language: ["en"], // busca em português e inglês
+        language: ["pt-BR"], // busca em português e inglês
         searchBarShortcutKeymap: "ctrl+shift+f", // Use Ctrl+Shift+F
       },
     ],

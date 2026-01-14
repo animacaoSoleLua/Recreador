@@ -78,7 +78,7 @@ const config = {
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         hashed: true,
-        language: ["pt-BR"], // busca em português e inglês
+        language: ["pt"], // busca em português
         searchBarShortcutKeymap: "ctrl+shift+f", // Use Ctrl+Shift+F
       },
     ],

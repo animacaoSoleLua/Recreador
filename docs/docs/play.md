@@ -43,7 +43,35 @@ Sinta-se à vontade para criar suas próprias *playlists*.
 
 ### Animação
 
-<iframe style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/playlist/1tPAPJlOWZiy7bztfpbaAW?utm_source=generator&theme=0" width="100%" height="360" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe 
+  style={{ borderRadius: '12px' }} 
+  src="https://open.spotify.com/embed/playlist/1tPAPJlOWZiy7bztfpbaAW?utm_source=generator&theme=0" 
+  width="100%" 
+  height="360" 
+  frameBorder="0" 
+  allowFullScreen 
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+  loading="lazy">
+  </iframe>
+
+---
+
+### Comemorações 
+
+:::tip Playlist pública
+***Caso queira o link para ser contribuidor me mande uma msg***
+:::
+
+<iframe
+  style={{ borderRadius: '12px' }}
+  src="https://open.spotify.com/embed/playlist/5CMSNH7nbzfHz0x05FPi23?utm_source=generator&theme=0"
+  width="100%"
+  height="360"
+  frameBorder="0"
+  allowFullScreen
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  loading="lazy">
+  </iframe>
 
 ---
 
@@ -90,6 +118,8 @@ Sinta-se à vontade para criar suas próprias *playlists*.
   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
   loading="lazy"
 />
+
+---
 
 ### Personagens em Geral
 
